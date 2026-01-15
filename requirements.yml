@@ -1,0 +1,28 @@
+name: CSB410_final
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pandas
+  - numpy
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - imbalanced-learn
+  - stable-baselines3
+  - gymnasium
+  - jupyter
+  - ipykernel
+  - pip
+  - nltk
+  - textblob
+  - pillow
+  - pip:
+      - tensorflow==2.15.0
+      - tf-keras
+      - tensorflow-datasets
+      - gymnasium[classic_control]
+      - tqdm
+      - ipython>=8.12.0
+      - traitlets>=5.9.0
